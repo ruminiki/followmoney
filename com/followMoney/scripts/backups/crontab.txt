@@ -1,0 +1,13 @@
+#GERA MOVIMENTOS PROGRAMADOS
+00 22 01 * * php /var/www/followMoney/com/followMoney/scripts/geraMovimentosProgramados.php
+
+#BACKUP FOLLOWMONEY
+00 23 * * * /root/backups/backup.sh fmdb
+
+#BACKUP UAB
+02 23 * * * /root/backups/backup.sh uab
+
+#ENVIA BACKUP EMAIL
+04 23 * * * /root/backups/send_backup_to_mail.sh /root/backups/fmdb
+05 23 * * * /root/backups/send_backup_to_mail.sh /root/backups/uab
+

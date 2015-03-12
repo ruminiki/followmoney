@@ -1,0 +1,13 @@
+comando cron:
+
+#GERA OS MOVIMENTOS PROGRAMADOS
+30 00 01 * * php /var/www/com/followMoney/scripts/geraMovimentosProgramados.php
+
+#NOTIFICA MOVIMENTOS VENCIDOS
+00 00 08 * * php /var/www/com/followMoney/scripts/alertaVencimentoMovimento.php
+
+
+
+o arquivo deve ter permissão de execução:
+
+chmod go+rx geraMovimentosProgramados.php

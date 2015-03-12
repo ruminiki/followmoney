@@ -1,0 +1,50 @@
+.button_go{
+	background: #00A300;
+	width: 400px;
+	height: 100px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	text-align: center;
+	box-shadow: 3px 3px 5px #e6e6e6;
+	cursor: default;
+}
+
+.button_go:hover{
+	background: rgb(0, 201, 0);
+	cursor: pointer;
+}
+
+.content {
+	margin-left: 20%;
+	margin-right: 20%;
+	width: 990px;
+	text-align: justify;
+}
+
+.content p.color {
+	color: #666666;
+	/*font-family: 'Quattrocento Sans', sans-serif;*/
+	font-family: 'Linden Hill', serif;
+}
+
+.content p.text_bold {
+	color: #666666;
+	/*font-family: 'Quattrocento Sans', sans-serif;*/
+	font-family: 'Linden Hill', serif;
+	font-weight: bold;
+}
+
+.top_border{
+	background: gray;
+	height: 5px;
+	top: -5px;
+	font-family: 'Linden Hill', serif;
+	font-weight: bold;
+}
+
+.botton_content{
+	background: gray;
+	height: 5px;
+	bottom: -5px;
+}

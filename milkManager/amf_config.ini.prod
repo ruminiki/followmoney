@@ -1,0 +1,17 @@
+[zend]
+;set the absolute location path of webroot directory, example:
+;Windows: C:\apache\www
+;MAC/UNIX: /user/apache/www
+webroot = "E:\Domains\followmoney.com.br\wwwroot"
+
+;set the absolute location path of zend installation directory, example:
+;Windows: C:\apache\PHPFrameworks\ZendFramework\library
+;MAC/UNIX: /user/apache/PHPFrameworks/ZendFramework/library
+zend_path ="E:\Domains\followmoney.com.br\wwwroot\ZendFramework\library"
+library ="library"
+services ="com/followMoney/domain/services"
+
+[zendamf]
+amf.version = amf3
+amf.production = true
+amf.directories[]=com/followMoney/domain/services

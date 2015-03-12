@@ -1,0 +1,81 @@
+<HTML>
+
+<head>
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+	<link href="http://fonts.googleapis.com/css?family=Kranky|Quattrocento+Sans" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Averia+Gruesa+Libre" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Linden+Hill' rel='stylesheet' type='text/css'>
+	
+	<script type="text/javascript">
+		$("#access").live('click', function(e) {
+			window.location = "http://www.followmoney.com.br/sistema.html";
+		});
+	</script>
+
+	<script type="text/javascript">
+
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-26184872-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+	</script>
+
+</head>
+
+<div class="content">
+
+<div class="top_border"></div>
+	<p class="text_bold">FollowMoney - Planejamento e Controle Financeiro Descomplicado</p>
+<div class="top_border"></div>
+
+<p class="color">O Follow Money é uma aplicação gratuita que você pode utilizar para registrar sua movimentação financeira, emitindo relatórios que lhe permitirão acompanhar saldos bancários, categorizar despesas e receitas, registrar movimentos. Seu objetivo é ser uma ferramenta de auxílio para que você possa, de forma mais fácil, registrar e acompanhar suas movimentações financeiras. O Follow Money pode ser acessado de duas formas, via web, pelo link ao lado, ou fazendo o download e instalando em seu computador.</p>
+
+<p class="text_bold">Usabilidade é tudo</p>
+
+<p class="color">O design centrado no usuário, permite o desenvolvimento de soluções iterativas, interfaces responsivas aos comandos, e informação disponível mais rapidamente. Assim é o Follow Money.</p>
+
+<p class="text_bold">Por que usar o Follow Money?</p>
+
+<p class="color">Se você sempre buscou uma forma de registrar suas movimentações financeiras, já tentou várias vezes, fazendo uso de planilhas, anotações... você encontrará no @FM uma ferramenta fácil de usar, acessível de casa, do trabalho, e logo também pelo celular. A facilidade de acesso potencializa as oportunidades para o registro de suas movimentações, fazendo isso no instante em que elas ocorrem.</p>
+
+<p class="text_bold">O que o Follow Money lhe oferece?</p>
+
+<p class="color">O Follow Money é uma aplicação que auxilia o controle financeiro de suas receitas e despesas diárias. É sabido que só é possível controlar o que é medido, logo o Follow Money facilitará o seu controle, eliminando planilhas, centralizando e facilitando o acesso à informação.</p>
+</p>
+
+<div width="100%" height="100%" align="center">
+	<div id="access" class="button_go"><p class="color" style="font-size:35px; padding-top:26px">Iniciar</p></div>
+</div>
+
+<div width="100%" height="100%" align="center">
+<div style="height:35px;width:100%"></div>
+<script type="text/javascript"><!--
+	google_ad_client = "ca-pub-8812730396654341";
+	/* followmoney */
+	google_ad_slot = "8064349022";
+	google_ad_width = 728;
+	google_ad_height = 90;
+	//-->
+</script>
+<script type="text/javascript"
+	src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+</div>
+
+
+</div>
+
+<div class="botton_content"></div>
+
+
+</HTML>

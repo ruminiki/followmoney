@@ -1,0 +1,107 @@
+@font-face {
+font-family:jacinto-sans;
+src:url("../fonts/jacinto_sans.ttf");
+font-style:normal;font-weight:300;
+}
+
+@font-face {
+font-family:"myriad-pro-1";
+src:url("../fonts/MYRIADPRO-REGULAR.OTF");
+font-style:normal;font-weight:400;
+}
+
+
+@font-face {
+font-family:"caviar-dreams-regular";
+src:url("../fonts/CaviarDreams.ttf");
+font-style:normal;font-weight:400;
+}
+
+
+@font-face {
+font-family:"caviar-dreams-italic";
+src:url("../fonts/CaviarDreamsItalic.ttf");
+font-style:normal;font-weight:400;
+}
+
+.box {
+    background-color: #E7931A;
+	width:250px;	
+	border-color: #919191;
+	border-width: 2px;
+	float: left;
+	width: 257px;
+	height: 125px;
+	color: #333;
+	border-left: 1px solid #F5FBF5;
+	border-right: 1px solid #E2E4E8;
+	border-style: solid;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	/*box-shadow: 5px 5px 10px #333, -5px -5px 10px #ccc;*/
+	box-shadow: 5px 5px 10px #BBB;
+	-moz-box-shadow:5px 5px 10px #BBB;
+	/* implementação para safari */
+	-webkit-box-shadow:5px 5px 10px, #BBB;
+}
+.box img{
+	width: 32px;
+	height: 32px;
+	margin-top: 4px;
+	padding-left: 20px;
+}
+.tit{
+	padding: 5px 0 8px;
+	color: #2D7E1F;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 15px;
+}
+
+.box p{
+	line-height: 21px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+	font-family: 'Quattrocento Sans', sans-serif;
+	margin-top: 5px;
+	font-size: 14px;
+}
+
+
+.funcionalidade{
+	margin-left: -16px;
+}
+
+.funcionalidade ul li{
+	display: inline-block;
+}
+
+.button {
+    background-color: #FFF;
+	height:120px;
+	padding: 5px;
+	width:35px;	
+	border-color: #CCC;
+	border-width: 1px;
+	float: left;
+	border-style: solid;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	/*box-shadow: 5px 5px 10px #333, -5px -5px 10px #ccc;*/
+	box-shadow: 5px 5px 10px #BBB;
+	-moz-box-shadow:5px 5px 10px #BBB;
+	/* implementação para safari */
+	-webkit-box-shadow:5px 5px 10px, #BBB;
+}
+
+.button img {
+width: 32px;
+height: 32px;
+margin-top: 42px;
+padding-left: 1px;
+}
+
+.button:hover{
+	background-color: #F0F0F0;
+	cursor: pointer;
+}

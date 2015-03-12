@@ -1,0 +1,390 @@
+<head>
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<script src="js/lightbox.js"></script>
+	<link href="css/lightbox.css" rel="stylesheet" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="css/screen.css" rel="stylesheet" />
+	<link href="css/boxes.css" rel="stylesheet" />
+	<link href='http://fonts.googleapis.com/css?family=Kranky|Quattrocento+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Averia+Gruesa+Libre' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css'>
+
+	<script type="text/javascript">
+
+		var currentPage = "";
+
+		$('#termos').live('click', function(e) {
+			e.preventDefault();
+
+			if ( $('#termo_de_uso').css("display") == 'none' ){
+		      	$('#apresentacao').fadeOut(800);
+			    $('#termo_de_uso').fadeIn(500);
+			}else{
+		       	$('#termo_de_uso').fadeOut(800);
+				$('#apresentacao').fadeIn(500);
+			}
+		});
+
+		function getCurrentPage(){
+			if ( $('#page01').css("display") != 'none' ){
+				return "page01";
+			}else{
+				if ( $('#page02').css("display") != 'none' ){
+					return "page02";
+				}else{
+					if ( $('#page03').css("display") != 'none' ){
+						return "page03";
+					}
+				}		
+			}
+			return '';
+		}
+
+
+		$("#btnNext").live('click', function(e) {
+			var curPage = getCurrentPage();
+			if ( curPage == "page01" ){
+				$('#page01').fadeOut(800, function() {
+					$('#page02').fadeIn(800);
+				});
+			}else{
+				if ( curPage == "page02" ){
+					$('#page02').fadeOut(800, function() {
+						$('#page03').fadeIn(800);
+					});
+				}else{
+					$('#page03').fadeOut(800, function() {
+						$('#page01').fadeIn(800);
+					});
+				}
+			}
+		});
+
+		$("#btnPrevious").live('click', function(e) {
+			var curPage = getCurrentPage();
+			if ( curPage == "page01" ){
+				$('#page01').fadeOut(800, function() {
+					$('#page03').fadeIn(800);
+				});
+			}else{
+				if ( curPage == "page02" ){
+					$('#page02').fadeOut(800, function() {
+						$('#page01').fadeIn(800);
+					});
+				}else{
+					$('#page03').fadeOut(800, function() {
+						$('#page02').fadeIn(800);
+					});
+				}
+			}
+		});
+
+		$("#access").live('click', function(e) {
+
+			window.location = "http://www.followmoney.com.br/sistema.html";
+
+		});
+		
+		$("#download").live('click', function(e) {
+
+			window.location = "http://www.followmoney.com.br/air/FollowMoney.air";
+
+		});
+
+	</script>
+
+	<script type="text/javascript">
+
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-26184872-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+	</script>
+</head>
+
+
+
+<div class="header">
+	<p class="title">Follow Money - Planejamento e controle financeiro</p>
+	<span id="access" class="downloads">Acessar</span>
+	<span id="download" class="downloads">Download</span>
+</div>
+
+<div id="apresentacao" class="central">
+<!--
+<script type="text/javascript"><!--
+	google_ad_client = "ca-pub-8812730396654341";
+	/* Follow Money */
+	google_ad_slot = "6289224044";
+	google_ad_width = 728;
+	google_ad_height = 90;
+	//-->
+<!--	
+</script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+-->
+
+<p class="color">
+O Follow Money é uma aplicação <u>gratuita</u> que você pode utilizar para registrar sua movimentação financeira, emitindo relatórios que lhe permitirão acompanhar saldos bancários, categorizar despesas e receitas, registrar movimentos. Seu objetivo é ser uma ferramenta de auxílio para que você possa, de forma mais fácil, registrar e acompanhar suas movimentações financeiras.
+
+O Follow Money pode ser acessado de duas formas, via web, pelo link ao lado, ou fazendo o download e instalando em seu computador.
+</p>
+
+
+<p class="italic" style="font-size:30px">
+"Não se controla o que não se mede"
+</p>
+
+<p class="color">
+Essa é a filosofia do Follow Money, medir, registrar, planejar e controlar o que você recebe e onde e como gasta. Essas informações lhe permitem dimensionar seu orçamento, verificando e mantendo o histórico de suas receitas e despesas.
+</p>
+
+
+<p class="italic" style="font-size:30px">
+Usabilidade é tudo
+</p>
+
+<p class="color">
+O design centrado no usuário, permite o desenvolvimento de soluções iterativas, interfaces responsivas aos comandos, e informação disponível mais rapidamente. Assim é o Follow Money.
+</p>
+
+<p class="italic" style="font-size:30px">
+Por que usar o Follow Money?
+</p>
+
+<p class="color">
+Se você sempre buscou uma forma de registrar suas movimentações financeiras, já tentou várias vezes, fazendo uso de planilhas, anotações... você encontrará no @FM uma ferramenta fácil de usar, acessível de casa, do trabalho, e logo também pelo celular. A facilidade de acesso potencializa as oportunidades para o registro de suas movimentações, fazendo isso no instante em que elas ocorrem.
+</p>
+
+
+<p class="italic" style="font-size:30px">
+O que o Follow Money lhe oferece?
+</p>
+
+<p class="color">
+O Follow Money é uma aplicação que  auxilia o controle financeiro de suas receitas e despesas diárias. É sabido que só é possível controlar o que é medido, logo o Follow Money facilitará o seu controle, eliminando planilhas, centralizando e facilitando o acesso à informação.</p>
+</p>
+<!--
+<div class="funcionalidade">
+
+<ul>
+	<li>
+		<div id="btnPrevious" class="button">
+			<img src="images/prev.png" alt="Anterior" width="32px" height="32px"> 
+		</div>
+	</li>
+	<li>
+		<div id="page01" class="funcionalidade">
+			<ul>
+				<li> 
+					<a href="images/movimentos.png" rel="lightbox[plants]" title="Tela de manutenção de movimentos.">
+						<div id="01" class="box">
+								<img src="images/btnMovimentos.png" alt="Movimentos" width="32px" height="32px"> 
+								<span class="tit">1. Movimentos</span><br>
+								<p>Um movimento/lançamento é um registro de receita ou despesa.</p>
+							
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="images/finalidade.png" rel="lightbox[plants]" title="Tela de manutenção de finalidades.">
+						<div id="01" class="box">
+							<img src="images/btnMovimentos.png" alt="Finalidades" width="32px" height="32px"> 
+							<span class="tit">2. Finalidades</span><br>
+							<p>As finalidades são uma forma de classificar os movimentos.</p> 
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="images/conta_bancaria.png" rel="lightbox[plants]" title="Tela de manutenção de contas bancárias.">
+						<div id="01" class="box">
+							<img src="images/btnMovimentos.png" alt="Contas Bancárias" width="32px" height="32px"> 
+							<span class="tit">3. Contas Bancárias</span><br>
+							<p>Visualize o saldo atual de suas contas bancárias e caixa.</p> 
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div id="page02" class="funcionalidade" style="display:none">
+			<ul>
+				<li> 
+					<a href="images/sub_finalidade.png" rel="lightbox[plants]" title="Podem ser definidas sub-finalidades. O sistema realiza o cálculo considerando os sub-níveis.">
+						<div id="01" class="box">
+							<img src="images/btnMovimentos.png" alt="Sub-Finalidades" width="32px" height="32px"> 
+							<span class="tit">4. Sub-Finalidades</span><br>
+							<p>Defina e monitore finalidades de forma hierárquica. Ex: 1.VEÍCULO 1.1 IPVA.</p> 
+						</div>
+					</a>
+				</li>
+				<li>
+					
+						<div id="01" class="box">
+							<img src="images/btnMovimentos.png" alt="Movimentos Programados" width="32px" height="32px"> 
+							<span class="tit">5. Movimentos Programados</span><br>
+							<p>Agende movimentos que se repetem mensalmente.</p> 
+						</div>
+					
+				</li>
+				<li>
+					<div id="01" class="box">
+						<img src="images/btnMovimentos.png" alt="Parcelas" width="32px" height="32px"> 
+						<span class="tit">6. Parcelas</span><br>
+						<p>Crie gerencie parcelas para um movimento.</p> 
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div id="page03" class="funcionalidade" style="display:none">
+			<ul>
+				<li> 
+					<a href="images/graficos.png" rel="lightbox[plants]" title="Gráfico mensal e anual da evolução dos movimentos.">
+						<div id="01" class="box">
+							<img src="images/btnMovimentos.png" alt="Gráficos" width="32px" height="32px"> 
+							<span class="tit">7. Gráficos</span><br>
+							<p>Diversos gráficos apresentam a evolução de suas movimentações financeiras.</p> 
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="images/representatividade.png" rel="lightbox[plants]" title="Gráfico de representatividade de seus créditos e débitos perante a movimentação total.">
+						<div id="01" class="box">
+							<img src="images/btnMovimentos.png" alt="Representatividade" width="32px" height="32px"> 
+							<span class="tit">8. Representatividade</span><br>
+							<p>Monitore a representatividade de cada finalidade em sua movimentação financeira total.</p> 
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="images/transferencia.png" rel="lightbox[plants]" title="Realize transferências entre contas bancárias e caixa.">
+						<div id="01" class="box">
+							<img src="images/btnMovimentos.png" alt="Transferências Bancárias" width="32px" height="32px"> 
+							<span class="tit">9. Transferências Bancárias</span><br>
+							<p>Faça transferência entre suas contas bancárias e caixa.</p> 
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</li>
+	<li>
+		<div id="btnNext" class="button">
+			<img src="images/next.png" alt="Próximo" width="32px" height="32px"> 
+		</div>
+	</li>
+</ul>
+
+</div>
+</div>
+
+<div id="termo_de_uso" class="central"  style="display:none">
+
+<p>
+O Follow Money é uma aplicação <u>gratuita,</u> sendo assim, para utilizá-la é necessário apenas realizar o seu cadastro.
+</p>
+<p class="italic" style="font-size:20px">
+Do cadastro:
+</p>
+<P>
+Para realização do cadastro serão solicitados os seguintes dados:
+</p>
+<ul>
+<li>Nome Completo;</li>
+<li>E-mail;</li>
+<li>Login;</li>
+<li>Senha;</li>
+<li>Código de Segurança.</li>
+</ul>
+<p>
+Uma vez realizado o cadastro, para ter acesso ao sistema, basta entrar com seu usuário, senha e código de segurança nos campos indicados.
+</p>
+<p class="italic" style="font-size:20px">
+Da segurança de seus dados
+</p>
+<ul>
+<li>O Follow Money possui mecanismos de backup, que tem por objetivo a garantia dos dados no caso de ocorrência de alguma catástrofe, e este será usado apenas para emergência não podendo o "Usuário" solicitar a restauração dos seus dados a qualquer momento;</li>
+<li>Toda comunicação através da rede mundial de computadores (Internet) está sujeita a interrupções ou atrasos, podendo impedir ou prejudicar o acesso ao site do "Follow Money", portanto o "Usuário" declara ter conhecimento e aceitar a possibilidade acima citada, e caso isso venha a acontecer o "Usuário" não terá direito a qualquer indenização em decorrência do tempo que o site esteve inoperante;</li>
+<li>É de total responsabilidade do "Usuário" providenciar e manter os equimamentos e programas necessários e compatíveis ao "Follow Money", bem como a conexão com a Internet para acesso ao site, para que possa usufluir dos serviços do "Follow Money";</li>
+<li>O "Follow Money", exime-se de qualquer responsabilidade gerada por mau uso do sistema, bem como por equívocos de cálculo decorrentes de informações erradas inseridas no sistema pelo próprio "Usuário";</li>
+<li>Os dados inseridos no "Follow Money" são de propriedade do "Usuário", portanto ao encerrar este contrato de uso, ele poderá exportar seus dados no formato Excel ou Texto dentro de 30 dias.</li>
+<li>O "Follow Money" não venderá ou compartilhará suas informações pessoais e ou financeiras com terceiros. Somente mediante sua expressa autorização ou através de solicitação judicial é que essas informações poderão ser divulgadas. Contudo o "Follow Money" fica desde já autorizado a ter acesso aos dados do "Usuário", para suporte, análise, verificação e solução de algum problema, desde que previamente solicitado pelo "Usuário" pelo canal de contato do site.</li>
+</ul>
+
+<p class="italic" style="font-size:20px">
+Direitos autorais
+</p>
+<ul>
+<li>O "Follow Money" e tudo a que ele se refere, como Site, Páginas, Imagens, Direitos Autorais e etc, pertencem única e exclusivamente a "FollowMoney";</li>
+<li>O "Usuário" declara ter conhecimento que não tem exclusividade no uso do "Follow Money".</li>
+</ul>
+
+<p class="italic" style="font-size:20px">
+Evolução do sistema
+</p>
+<ul>
+<li>O "Follow Money" se reserva no direito de modificar, acrescentar ou excluir funcionalidades, serviços ou layout do sistema por qualquer motivo, sem aviso, sem que isso implique qualquer responsabilidade em relação ao "Usuário", a qualquer outro membro ou a terceiros. </li>
+</ul>
+
+<p class="italic" style="font-size:20px">
+Suporte técnico
+</p>
+<ul>
+<li>O "Follow Money" é de uso gratuito, logo não presta serviços de suporte técnico, bem como não mantém equipe e canal de atendimento disponível para recebimento e atendimento de dúvidas e/ou problemas encontrados pelo "Usuário". Fica a página de contato no site disponível para que o "Usuário" envie, caso desejar, suas dúvidas e/ou problemas encontrados.</li>
+</ul>
+
+<p class="italic" style="font-size:20px">
+Do envio de e-mails
+</p>
+<ul>
+<li>O "Usuário" autoriza o recebimento de e-mails do "Follow Money" e qualquer outro produto vinculado, sem que isso gere qualquer direito ou remuneração ao "Usuário".</li>
+<li>O "Follow Money" pode utilizar de todo o tipo de publicidade existente ou que venha a existir, no interior do site ou nos e-mails, sem que isso gere qualquer direito ou remuneração ao "Usuário".</li>
+</ul>
+
+</div>
+
+
+<div class="clear"></div>
+<div class="clear"></div>
+
+<div id="rodape-novo">
+  
+  <div class="quadro-rodape">
+    
+    <div class="bloco-rodape">
+      <p> Follow Money </p>
+      <a href=""> Quem Somos </a>
+      <a id="termos" href=""> Termos de Uso </a>
+    </div>
+    
+    <div class="bloco-rodape">
+      <p> Saiba mais </p>
+      
+      <a href=""> Perguntas Frequentes </a>
+      <a href=""> Como funciona </a>
+      <a href=""> Entre em contato </a>
+    </div>
+    
+    <div class="bloco-rodape">
+      <p> Parceiro </p>
+      
+      <a href=""> Sugerir um Parceiro </a>
+      <a href=""> Quero ser um Parceiro </a>
+    </div>
+    
+    <div class="bloco-rodape">
+      <p> Siga-nos </p>
+      
+      <a href="http://followmoneyteam.blogspot.com" target="_blank"> Blog </a>
+    </div>
+    
+  </div> <!-- //quadro-rodape -->
+  
+</div>
+

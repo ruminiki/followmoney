@@ -1,0 +1,21 @@
+<strong>SMTP Error: Could not authenticate.</strong><br />
+<strong>SMTP Error: Could not authenticate.</strong><br />
+<strong>SMTP Error: Could not connect to SMTP host.</strong><br />
+<strong>SMTP Error: Could not authenticate.</strong><br />
+<strong>SMTP Error: Could not authenticate.</strong><br />
+<strong>SMTP Error: Could not authenticate.</strong><br />
+<strong>SMTP Error: Could not authenticate.</strong><br />
+<strong>SMTP Error: Could not authenticate.</strong><br />
+<strong>SMTP Error: Could not authenticate.</strong><br />
+<strong>SMTP Error: Could not authenticate.</strong><br />
+<strong>Language string failed to load: tls</strong><br />
+<strong>SMTP Error: Could not authenticate.</strong><br />
+<strong>Language string failed to load: tls</strong><br />
+<strong>SMTP Error: Could not authenticate.</strong><br />
+<strong>SMTP Error: Could not connect to SMTP host.</strong><br />
+<strong>Language string failed to load: tls</strong><br />
+<strong>SMTP Error: Could not authenticate.</strong><br />
+<strong>SMTP Error: Could not authenticate.</strong><br />
+<strong>SMTP Error: Could not connect to SMTP host.</strong><br />
+<strong>SMTP Error: Could not authenticate.</strong><br />
+<strong>SMTP Error: Could not authenticate.</strong><br />

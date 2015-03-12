@@ -1,0 +1,4 @@
+server.endpoint = http://www.followmoney.com.br/gateway.php
+
+
+server.endpoint = http://localhost/followMoney.server/gateway.php

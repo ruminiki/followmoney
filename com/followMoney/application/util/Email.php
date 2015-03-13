@@ -40,7 +40,7 @@ class Email{
                 $mail->Host       = "smtp.gmail.com";
                 $mail->SMTPDebug  = true;
                 $mail->Username   = "followmoneybr@gmail.com";
-                $mail->Password   = "dust258seem633#";
+                $mail->Password   = "";
                 $mail->From       = "no-reply@followmoney.com.br";
                 $mail->FromName   = "Follow Money";
 		$mail->CharSet    = "utf-8";
@@ -66,7 +66,7 @@ class Email{
 			$mail->Host       = "smtp.gmail.com";
 			$mail->SMTPDebug  = true;
 			$mail->Username   = "followmoneybr@gmail.com";
-			$mail->Password   = "dust258seem633#";
+			$mail->Password   = "";
 			$mail->From       = "no-reply@followmoney.com.br";
 			$mail->FromName   = "Follow Money";
 			$mail->Subject    = "[Follow Money] Bem vindo(a) ao FollowMoney ";
@@ -99,7 +99,7 @@ class Email{
 		$mail->Port       = 25;
 		$mail->Host       = "smtp.gmail.com";    
 		$mail->Username   = "followmoneybr@gmail.com";
-		$mail->Password   = "dust258seem633#";
+		$mail->Password   = "";
 		$mail->From       = $mail->Username;
 		$mail->FromName   = "Follow Money";
 	}
